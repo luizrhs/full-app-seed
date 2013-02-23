@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 		},
 
 		jshint: {
-			files: ['app/js/**/*.js', '!app/js/vendor/*','Gruntfile.js', 'test/unit/**/*Spec.js', 'test/e2e/*Spec.js']
+			files: ['app/js/**/*.js', '!app/js/vendor/*', '!app/js/dist/*','Gruntfile.js', 'test/unit/**/*Spec.js', 'test/e2e/*Spec.js']
 		},
 
 		watch: {
@@ -47,5 +47,12 @@ module.exports = function(grunt) {
 		}
 
 	});
+
+	grunt.registerTask('begin', [
+		'jshint',
+		'less',
+		'concat',
+		'watch'
+	]);
 
 };
