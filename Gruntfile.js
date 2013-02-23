@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				src: ['app/js/**/*.js', '!app/js/vendor/*', '!app/js/dist/*'],
-				dest: 'app/js/dist/main.js'
+				dest: 'app/js/dist/global.js'
 			}
 		}
 
