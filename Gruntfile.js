@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
 		// JSHINT
 		jshint: {
-			files: ['app/js/**/*.js', 'Gruntfile.js', 'test/unit/**/*Spec.js', 'test/e2e/*Spec.js']
+			files: ['app/js/**/*.js', '!app/js/vendor/*','Gruntfile.js', 'test/unit/**/*Spec.js', 'test/e2e/*Spec.js']
 		},
 
 		watch: {
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 				separator: ";"
 			},
 			dist: {
-				src: ['app/js/*.js', 'app/js/**/*.js'],
+				src: ['app/js/**/*.js', '!app/js/vendor/*'],
 				dest: 'app/.dist-js/main.js'
 			}
 		}
