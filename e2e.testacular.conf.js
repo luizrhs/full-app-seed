@@ -13,5 +13,5 @@ browsers = ['Firefox'];
 singleRun = true;
 
 proxies = {
-  '/': 'http://localhost:9001/'
+  '/': 'http://localhost:9001/app'
 };

@@ -17,7 +17,6 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// JSHINT
 		jshint: {
 			files: ['app/js/**/*.js', '!app/js/vendor/*','Gruntfile.js', 'test/unit/**/*Spec.js', 'test/e2e/*Spec.js']
 		},
