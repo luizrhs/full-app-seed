@@ -13,6 +13,7 @@ files = [
   'app/components/angular/angular.js',
   'test/lib/angular-mocks.js',
   'app/js/**/*.js',
+  '!app/js/vendor/*',
   'test/unit/**/*Spec.js'
 ];
 
