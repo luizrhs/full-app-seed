@@ -10,9 +10,19 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+        <!-- Pretty font from Google Web Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="css/dist/global.css">
+        <style>
+            body {
+                padding-bottom: 40px;
+            }
+            /* Full-width hero-unit */
+            @media (max-width: 767px) { .hero-unit { margin-right: -20px; margin-left: -20px; } }
+        </style>
         <link rel="stylesheet" href="css/vendor/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/dist/global.css">
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -23,8 +33,59 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Your app here!</p>
-       
+        <!-- Navbar -->
+        <div class="navbar navbar-static-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">Web App</a>
+                    <ul class="nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Test</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Hero unit -->
+        <header>
+            <div class="hero-unit">
+                <div class="container" style="text-align: center;">
+                    <h1>Nice title</h1>
+                    <p>Nice content in here!</p>
+                    <p><button class="btn btn-large btn-info">Click me!</button></p>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Body -->
+        <div class="container">
+            <div class="row">
+                <div class="span4"><h2>Nice title</h2>
+                Lorem ipsum nulla qui commodo dolore incididunt officia dolor cillum esse irure. Lorem ipsum cupidatat anim sint cupidatat do fugiat elit do Ut non. Lorem ipsum culpa sint qui ad do exercitation minim veniam cupidatat qui sed occaecat. Lorem ipsum et aute anim sed Ut esse aliquip est amet veniam exercitation. Lorem ipsum dolore incididunt minim adipisicing non aliqua voluptate dolor aliqua commodo Duis. Lorem ipsum aliquip aute reprehenderit ut ut officia magna cupidatat ut est. 
+                </div>
+                <div class="span4"><h2>Cute title</h2>
+                Lorem ipsum occaecat ut irure occaecat ad officia esse incididunt quis fugiat ut Duis culpa velit. Lorem ipsum sit mollit qui non cupidatat do ex ut adipisicing officia sit. Lorem ipsum quis laboris consectetur sint commodo ut. Lorem ipsum mollit dolore veniam magna sed ut nulla. Lorem ipsum dolore est eiusmod consectetur veniam cillum consectetur enim. Lorem ipsum eu dolor Excepteur esse in ut labore ut consequat non reprehenderit nulla anim ad. Lorem ipsum Duis aliquip do amet reprehenderit occaecat et reprehenderit sint sint dolor dolore dolor. Lorem ipsum irure est cupidatat laborum Ut irure. 
+                </div>
+                <div class="span4"><h2>Annoying title</h2>
+                Lorem ipsum nisi elit non ea velit nisi esse labore. Lorem ipsum aliquip amet sunt aute deserunt cillum veniam dolore in sit. Lorem ipsum consectetur ut voluptate irure qui ea cupidatat cupidatat dolor incididunt. Lorem ipsum quis dolor laborum est laborum esse adipisicing. Lorem ipsum amet qui voluptate ad do dolore sed. 
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <hr>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span12" style="text-align: center;">
+                        Copyright 2013 
+                    </div>
+                </div>
+            </div>
+        </footer>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
